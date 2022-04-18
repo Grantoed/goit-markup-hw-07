@@ -1,0 +1,38 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  background-color: $footer-bg-color;
+}
+
+.footer__container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-nav__item {
+  line-height: 1.71;
+
+  &:not(:last-child) {
+    margin-bottom: 9px;
+  }
+}
+
+.footer-nav__address {
+  color: $primary-bg-color;
+
+  font-style: normal;
+}
+
+.footer-nav__auth {
+  color: rgba(255, 255, 255, 0.6);
+
+  font-style: normal;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}

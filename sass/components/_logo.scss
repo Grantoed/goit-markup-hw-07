@@ -15,4 +15,15 @@
 
 .logo__studio {
   color: $logo-studio-primary;
+
+  &--inverse {
+    color: $logo-studio-secondary;
+  }
+}
+
+.footer__logo {
+  display: inline-block;
+
+  margin-right: 0;
+  margin-bottom: 20px;
 }

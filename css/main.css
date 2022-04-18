@@ -675,7 +675,7 @@ h6 {
 }
 
 .staff {
-  background-color: var(--secondary-bg-color);
+  background-color: #f5f4fa;
 }
 
 .staff__container {
@@ -694,7 +694,7 @@ h6 {
 }
 
 .staff__item {
-  background-color: var(--primary-bg-color);
+  background-color: #ffffff;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -714,7 +714,7 @@ h6 {
 }
 
 .staff__name {
-  color: var(--title-text-color);
+  color: #212121;
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -722,7 +722,7 @@ h6 {
 }
 
 .staff__position {
-  color: var(--primary-text-color);
+  color: #757575;
   margin-bottom: 16px;
   font-size: 16px;
 }

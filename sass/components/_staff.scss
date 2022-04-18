@@ -1,5 +1,5 @@
 .staff {
-  background-color: var(--secondary-bg-color);
+  background-color: $secondary-bg-color;
 
   &__container {
     padding-top: 94px;
@@ -15,7 +15,7 @@
   }
 
   &__item {
-    background-color: var(--primary-bg-color);
+    background-color: $primary-bg-color;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -35,7 +35,7 @@
     padding-right: 32px;
   }
   &__name {
-    color: var(--title-text-color);
+    color: $title-text-color;
 
     margin-bottom: 10px;
 
@@ -45,7 +45,7 @@
   }
 
   &__position {
-    color: var(--primary-text-color);
+    color: $primary-text-color;
 
     margin-bottom: 16px;
 

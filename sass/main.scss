@@ -1,7 +1,7 @@
-@import "./utils/vars";
+@import "./utils/variables";
 @import "./utils/animation";
 @import "./components/body";
-@import "./utils/reset";
+@import "./base/reset";
 @import "./components/container";
 @import "./components/logo";
 @import "./components/page-header";
@@ -16,5 +16,7 @@
 @import "./components/staff";
 @import "./components/socials";
 @import "./components/clients";
-@import "./components/footer";
+@import "./components/page-footer";
 @import "./components/newsletter-sub";
+@import "./components/filter";
+@import "./components/portfolio";

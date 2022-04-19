@@ -1,3 +1,7 @@
+// fonts
+$main-font: "Roboto", sans-serif;
+$logo-font: "Raleway", sans-serif;
+
 // colors
 $primary-text-color: #757575;
 $title-text-color: #212121;
@@ -13,3 +17,6 @@ $logo-web-secondary: #2196f3;
 $logo-studio-secondary: #ffffff;
 $primary-border-color: #ececec;
 $primary-icon-color: #afb1b8;
+
+// transition
+$transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
